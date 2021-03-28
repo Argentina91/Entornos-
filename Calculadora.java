@@ -27,6 +27,7 @@ public class Calculadora{
 	System.out.println("1. Sumar");
 	System.out.println("2. Restar");
 	System.out.println("3. Multiplicar");
+	System.out.println("4. Dividir");
 	System.out.println("5. Salir");
 
 	opcion = entrada.nextInt();
@@ -40,6 +41,9 @@ public class Calculadora{
 			resultado=operador1-operador2;
 		case 3: //Multiplicar
 			resultado=operador1*operador2;
+			break;
+		case 4: //Dividir
+			resultado=(double)operador1/(double)operador2;
 			break;
 		case 5: //Salir
 			break;
